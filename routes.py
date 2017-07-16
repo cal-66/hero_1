@@ -1,8 +1,8 @@
 #__ routes.py
-import os
+#import os
 
 
-port = int(os.environ.get('PORT', 5000))
+#port = int(os.environ.get('PORT', 5000))
 
 from flask import Flask, render_template
 
@@ -14,4 +14,5 @@ def index():
 
 
 if __name__ == '__main__':
-	app.run(debug = False, host='0.0.0.0', port=port)
+	#app.run(debug = False, host='0.0.0.0', port=port)
+	app.run(debug = False)
